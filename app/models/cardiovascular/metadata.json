@@ -1,0 +1,34 @@
+{
+    "model_version": "cardiovascular-lr-1.0",
+    "model_type": "Logistic Regression",
+    "threshold": 0.6,
+    "training_samples": 242,
+    "features": [
+        "age",
+        "trestbps",
+        "chol",
+        "thalach",
+        "oldpeak",
+        "sex",
+        "cp",
+        "fbs",
+        "restecg",
+        "exang",
+        "slope",
+        "ca",
+        "thal"
+    ],
+    "target_definition": {
+        "0": "No disease in the original dataset",
+        "1": "Disease present in the original dataset"
+    },
+    "test_metrics": {
+        "accuracy": 0.8689,
+        "precision": 0.8571,
+        "recall": 0.8571,
+        "f1": 0.8571,
+        "roc_auc": 0.9524,
+        "pr_auc": 0.9459
+    },
+    "disclaimer": "Educational research prototype only; not a medical diagnosis system."
+}
